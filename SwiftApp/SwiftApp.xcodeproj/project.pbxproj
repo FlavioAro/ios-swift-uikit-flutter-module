@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06C6040295E92290023D4D2 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D06C603F295E92290023D4D2 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D06C6042295E92440023D4D2 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D06C6041295E92440023D4D2 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D06C6044295E92580023D4D2 /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D06C6043295E92580023D4D2 /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D06C6046295E926F0023D4D2 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D06C6045295E926F0023D4D2 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D08D4828295E89ED00B6DEC6 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08D4827295E89ED00B6DEC6 /* Flutter.xcframework */; };
+		D08D482A295E8A1B00B6DEC6 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08D4829295E8A1B00B6DEC6 /* App.xcframework */; };
+		D08D482C295E8A3A00B6DEC6 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08D482B295E8A3A00B6DEC6 /* url_launcher_ios.xcframework */; };
+		D08D482E295E8A5500B6DEC6 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08D482D295E8A5500B6DEC6 /* FlutterPluginRegistrant.xcframework */; };
+		D0B02DF3295E7B9B00A08561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B02DF2295E7B9B00A08561 /* AppDelegate.swift */; };
+		D0B02DF5295E7B9B00A08561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B02DF4295E7B9B00A08561 /* SceneDelegate.swift */; };
+		D0B02DF7295E7B9B00A08561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B02DF6295E7B9B00A08561 /* ViewController.swift */; };
+		D0B02DFA295E7B9B00A08561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B02DF8295E7B9B00A08561 /* Main.storyboard */; };
+		D0B02DFC295E7B9D00A08561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B02DFB295E7B9D00A08561 /* Assets.xcassets */; };
+		D0B02DFF295E7B9D00A08561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B02DFD295E7B9D00A08561 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D06C603E295E91C60023D4D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D06C6040295E92290023D4D2 /* Flutter.xcframework in Embed Frameworks */,
+				D06C6042295E92440023D4D2 /* App.xcframework in Embed Frameworks */,
+				D06C6044295E92580023D4D2 /* url_launcher_ios.xcframework in Embed Frameworks */,
+				D06C6046295E926F0023D4D2 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D06C603F295E92290023D4D2 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../flutter_module/build/ios/framework/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		D06C6041295E92440023D4D2 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../flutter_module/build/ios/framework/Debug/App.xcframework; sourceTree = "<group>"; };
+		D06C6043295E92580023D4D2 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = ../flutter_module/build/ios/framework/Debug/url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		D06C6045295E926F0023D4D2 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../flutter_module/build/ios/framework/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		D08D4827295E89ED00B6DEC6 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../flutter_module/build/ios/framework/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		D08D4829295E8A1B00B6DEC6 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../../flutter_module/build/ios/framework/Debug/App.xcframework; sourceTree = "<group>"; };
+		D08D482B295E8A3A00B6DEC6 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = ../../flutter_module/build/ios/framework/Debug/url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		D08D482D295E8A5500B6DEC6 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../../flutter_module/build/ios/framework/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		D0B02DEF295E7B9B00A08561 /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B02DF2295E7B9B00A08561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B02DF4295E7B9B00A08561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0B02DF6295E7B9B00A08561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0B02DF9295E7B9B00A08561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B02DFB295E7B9D00A08561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B02DFE295E7B9D00A08561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B02E00295E7B9D00A08561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B02DEC295E7B9B00A08561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08D482C295E8A3A00B6DEC6 /* url_launcher_ios.xcframework in Frameworks */,
+				D08D4828295E89ED00B6DEC6 /* Flutter.xcframework in Frameworks */,
+				D08D482E295E8A5500B6DEC6 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				D08D482A295E8A1B00B6DEC6 /* App.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B02DE6295E7B9B00A08561 = {
+			isa = PBXGroup;
+			children = (
+				D06C6045295E926F0023D4D2 /* FlutterPluginRegistrant.xcframework */,
+				D06C6043295E92580023D4D2 /* url_launcher_ios.xcframework */,
+				D06C6041295E92440023D4D2 /* App.xcframework */,
+				D06C603F295E92290023D4D2 /* Flutter.xcframework */,
+				D0B02DF1295E7B9B00A08561 /* SwiftApp */,
+				D0B02DF0295E7B9B00A08561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B02DF0295E7B9B00A08561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B02DEF295E7B9B00A08561 /* SwiftApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B02DF1295E7B9B00A08561 /* SwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				D08D482D295E8A5500B6DEC6 /* FlutterPluginRegistrant.xcframework */,
+				D08D482B295E8A3A00B6DEC6 /* url_launcher_ios.xcframework */,
+				D08D4829295E8A1B00B6DEC6 /* App.xcframework */,
+				D08D4827295E89ED00B6DEC6 /* Flutter.xcframework */,
+				D0B02DF2295E7B9B00A08561 /* AppDelegate.swift */,
+				D0B02DF4295E7B9B00A08561 /* SceneDelegate.swift */,
+				D0B02DF6295E7B9B00A08561 /* ViewController.swift */,
+				D0B02DF8295E7B9B00A08561 /* Main.storyboard */,
+				D0B02DFB295E7B9D00A08561 /* Assets.xcassets */,
+				D0B02DFD295E7B9D00A08561 /* LaunchScreen.storyboard */,
+				D0B02E00295E7B9D00A08561 /* Info.plist */,
+			);
+			path = SwiftApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B02DEE295E7B9B00A08561 /* SwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B02E03295E7B9D00A08561 /* Build configuration list for PBXNativeTarget "SwiftApp" */;
+			buildPhases = (
+				D0B02DEB295E7B9B00A08561 /* Sources */,
+				D0B02DEC295E7B9B00A08561 /* Frameworks */,
+				D0B02DED295E7B9B00A08561 /* Resources */,
+				D06C603E295E91C60023D4D2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftApp;
+			productName = SwiftApp;
+			productReference = D0B02DEF295E7B9B00A08561 /* SwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B02DE7295E7B9B00A08561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D0B02DEE295E7B9B00A08561 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D0B02DEA295E7B9B00A08561 /* Build configuration list for PBXProject "SwiftApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B02DE6295E7B9B00A08561;
+			productRefGroup = D0B02DF0295E7B9B00A08561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B02DEE295E7B9B00A08561 /* SwiftApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B02DED295E7B9B00A08561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B02DFF295E7B9D00A08561 /* LaunchScreen.storyboard in Resources */,
+				D0B02DFC295E7B9D00A08561 /* Assets.xcassets in Resources */,
+				D0B02DFA295E7B9B00A08561 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B02DEB295E7B9B00A08561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B02DF7295E7B9B00A08561 /* ViewController.swift in Sources */,
+				D0B02DF3295E7B9B00A08561 /* AppDelegate.swift in Sources */,
+				D0B02DF5295E7B9B00A08561 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0B02DF8295E7B9B00A08561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B02DF9295E7B9B00A08561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B02DFD295E7B9D00A08561 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B02DFE295E7B9D00A08561 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B02E01295E7B9D00A08561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B02E02295E7B9D00A08561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B02E04295E7B9D00A08561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NerdAutodidata.SwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B02E05295E7B9D00A08561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NerdAutodidata.SwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B02DEA295E7B9B00A08561 /* Build configuration list for PBXProject "SwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B02E01295E7B9D00A08561 /* Debug */,
+				D0B02E02295E7B9D00A08561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B02E03295E7B9D00A08561 /* Build configuration list for PBXNativeTarget "SwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B02E04295E7B9D00A08561 /* Debug */,
+				D0B02E05295E7B9D00A08561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B02DE7295E7B9B00A08561 /* Project object */;
+}
