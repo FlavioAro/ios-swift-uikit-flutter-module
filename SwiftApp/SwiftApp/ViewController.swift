@@ -10,7 +10,7 @@ import Flutter
 import FlutterPluginRegistrant
 
 class ViewController: UIViewController {
-  lazy var flutterEngine = FlutterEngine(name: "my flutter engine")
+  lazy var flutterEngine = FlutterEngine(name: "module_flutter_engine")
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -19,17 +19,22 @@ class ViewController: UIViewController {
     GeneratedPluginRegistrant.register(with: flutterEngine)
     
     // Make a button to call the showFlutter function when pressed.
-    let button = UIButton(type:UIButton.ButtonType.custom)
-    button.addTarget(self, action: #selector(showFlutter), for: .touchUpInside)
-    button.setTitle("Show Flutter!", for: UIControl.State.normal)
-    button.frame = CGRect(x: 80.0, y: 210.0, width: 160.0, height: 40.0)
-    button.backgroundColor = UIColor.blue
-    self.view.addSubview(button)
+    myButton()
   }
+    
+    func myButton() {
+        let button = UIButton(type:UIButton.ButtonType.custom)
+        button.addTarget(self, action: #selector(showFlutter), for: .touchUpInside)
+        button.setTitle("OPEN FLUTTER MODULE", for: UIControl.State.normal)
+        button.frame = CGRect(x: 45, y: 200, width: 300, height: 52)
+        button.backgroundColor = UIColor.blue
+        self.view.addSubview(button)
+    }
 
   @objc func showFlutter() {
     let flutterViewController =
         FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+    flutterViewController.modalPresentationStyle = .fullScreen
     present(flutterViewController, animated: true, completion: nil)
   }
 }
